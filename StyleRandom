@@ -1,0 +1,15 @@
+rollback=true;setting = {
+    ['Mode'] = 'Style', -- 'Style', 'Flow'
+    ['Selected'] = { "Loki","NEL Rin" },
+    -- Rollback and spin until got anything in Selected
+    ['Slot'] = 1, -- Slot that want to spin
+
+    ['Spin'] = {
+        ['Use Lucky'] = true, -- Will use Lucky spin?
+        ['Use Money'] = false, -- Will use Moeny spin?
+        ['Max Spins'] = 5 -- Max spin before Rollback
+    },
+
+    ['Webhook'] = 'https://discord.com/api/webhooks/'
+}
+loadstring(game:HttpGet("https://scripts.alchemyhub.xyz"))()
