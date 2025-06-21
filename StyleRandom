@@ -1,6 +1,6 @@
 rollback=true;setting = {
     ['Mode'] = 'Style', -- 'Style', 'Flow'
-    ['Selected'] = { "Loki","NEL Rin" },
+    ['Selected'] = { "Loki" },
     -- Rollback and spin until got anything in Selected
     ['Slot'] = 1, -- Slot that want to spin
 
